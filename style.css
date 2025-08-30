@@ -2,37 +2,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  /* Cores de Fundo */
-  --corDeFundo: #f7f7f7;
-  --cor-de-fundo-principal: #f1efef;
-  --background-color: #1d1d1d;
+    /* Cores de Fundo */
+    --background-color: #1d1d1d;
+    --background-color2: #5A5A5A;
+    --background-color3: #f7f7f7;
+    --background-color4: #f1efef;
+    --background-color5: #4a4a4a;
+    --background-color6: #f5f5f5;
 
-  /* Cores de Texto */
-  --corLetraBotao: #052151;
-  --corLetraBotaoHover: #061838;
-  --texto-cor: #000000;
-  --button-text-color: #ffffff;
-  --link: #333333;
-  --secondary-color: #f0f0f0;
+    /* Cores de Texto */
+    --corLetraBotao: #052151;
+    --corLetraBotaoHover: #061838;
+    --texto-cor: #000000;
+    --button-text-color: #ffffff;
+    --link: #333333;
+    --secondary-color: #f0f0f0;
 
-  /* Cores de Botão */
-  --corBotao: #3b82f6;
-  --corBordaBotao: #1340b3;
-  --botaoHover: #3170d7;
-  --button-color-jogar: #007bff;
-  --button-color-escolha: #144696;
-  --button-color-escolha-hover: #3267bd;
-  --button-color-escolha-borda: #041e42;
+    /* Cores de Botão */
+    --corBotao: #3b82f6;
+    --corBordaBotao: #1340b3;
+    --botaoHover: #3170d7;
+    --button-color-jogar: #007bff;
+    --button-color-escolha: #144696;
+    --button-color-escolha-hover: #3267bd;
+    --button-color-escolha-borda: #041e42;
 
-  /* Cores de Inputs */
-  --corInput: #d6dad4;
-  --bordaInput: #9f9f9f;
-  --newCorInput: #c9c9c9;
-  --newBordaInput: #989898;
-  --corInputOld: #f1f1f1;
+    /* Cores de Inputs */
+    --corInput: #d6dad4;
+    --bordaInput: #9f9f9f;
+    --newCorInput: #c9c9c9;
+    --newBordaInput: #989898;
+    --corInputOld: #f1f1f1;
 
-  /* Outras Cores */
-  --card-pergunta-color: #206dea;
-  --borda-section: #141414;
-  --black: #000000ce;
+    /* Borda */
+    --borda-section: #141414;
+    --borda-clara: #C0C0C0;
+    --borda-prata: #a8a8a8;
+
+    /* Outras Cores */
+    --card-pergunta-color: #206dea;
+    --black: #000000ce;
+    --white: #fff;
+
+    /* Fontes por seletor */
+    --font-h: 'Montserrat', sans-serif;
+    --weight-h: 700;
+
+    --font-p: 'Roboto', sans-serif;
+    --weight-p: 400;
+
+    --font-a: 'Poppins', sans-serif;
+    --weight-a: 500;
 }
